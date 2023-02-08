@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-image{
+  border-radius: 40px;
+}
+
+.carousel-image{
+  max-height: 400px;
+  width: auto;
+}
