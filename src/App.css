@@ -69,6 +69,22 @@
   padding: 16px;
 }
 
+
+.animate-text{
+  animation-duration: 1s;
+  animation-name: animate-text;
+}
+
+@keyframes animate-text{
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
 .about-image{
   height:400px;
   width:400px;
@@ -76,5 +92,22 @@
 
 }
 
+.animate-image{
+  animation-duration: 1s;
+  animation-name: animate-image;
+}
 
 
+@keyframes animate-image{
+  from {
+    transform: translateX(90%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.hidden{
+  visibility: hidden;
+}

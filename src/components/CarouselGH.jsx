@@ -7,7 +7,7 @@ export default function CarouselGH() {
   return (
     <>
     
-    <Carousel fade className='p-3 w-75'>
+    <Carousel fade className='p-3 mt-3 mb-3 w-75'>
     <Carousel.Item>
       <img
         className="d-block w-100 container-fluid carousel-image"

@@ -18,7 +18,7 @@ export default function NavbarDefault() {
              alt="React Bootstrap logo"
            />
          </Navbar.Brand>
-         <Nav className="me-auto">
+         <Nav className='me-auto'>       
            <Nav.Link href="#home" className='me-2'>Home</Nav.Link>
            <Nav.Link href="#features" className='me-2'>Academy</Nav.Link>
            <Nav.Link href="#pricing" className='me-2'>Tickets</Nav.Link>
