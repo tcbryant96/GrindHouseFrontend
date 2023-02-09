@@ -2,11 +2,12 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 
 
+
 export default function CarouselGH() {
   return (
     <>
-    <div className=''>
-    <Carousel fade className='p-4'>
+    
+    <Carousel fade className='p-3 w-75'>
     <Carousel.Item>
       <img
         className="d-block w-100 container-fluid carousel-image"
@@ -21,7 +22,7 @@ export default function CarouselGH() {
     <Carousel.Item>
       <img
         className="d-block w-100 container-fluid carousel-image"
-        src={require('../images/grindhouse.jpg')}
+        src={require('../images/grindhousering.jpg')}
         alt="Second slide"
       />
 
@@ -33,7 +34,7 @@ export default function CarouselGH() {
     <Carousel.Item>
       <img
         className="d-block w-100 container-fluid carousel-image"
-        src={require('../images/grindhouse.jpg')}
+        src={require('../images/grindhouserumble.jpg')}
         alt="Third slide"
       />
 
@@ -45,7 +46,7 @@ export default function CarouselGH() {
       </Carousel.Caption>
     </Carousel.Item>
   </Carousel>
-  </div>
+
   </>
   )
 }
