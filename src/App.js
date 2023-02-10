@@ -4,6 +4,7 @@ import AboutUs from "./components/AboutUs";
 import CarouselGH from "./components/CarouselGH";
 import IconNav from "./components/IconNav";
 import NavbarDefault from "./components/NavbarDefault";
+import Quotes from "./components/Quotes";
 import SlickCarousel from "./components/SlickCarousel";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     
           
             <AboutUs></AboutUs>
+            <Quotes></Quotes>
       
       
     

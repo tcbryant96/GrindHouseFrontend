@@ -1,15 +1,13 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import { Animator, MoveIn, ScrollContainer, ScrollPage, Sticky} from "react-scroll-motion";
-import { useRef, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
+
 export default function AboutUs() {
     const { ref: aboutText, inView: moveTextIn} = useInView()
     const { ref: aboutImage, inView: moveImageIn} = useInView()
-   console.log(moveTextIn)
+   
   return (
     <>
-            <div className="row mt-5">
+            <div className="row mt-5 about-div">
 
               <div className={`col ms-5 ${moveTextIn ? 'animate-text': 'hidden'}`} ref={aboutText}>
                 <h1 className="text-center font-header">About Us</h1>
@@ -30,7 +28,7 @@ export default function AboutUs() {
     
               <div className={`col d-flex justify-content-center align-items-center mt-3 ${moveImageIn ? "animate-image" : "hidden"}`} ref={aboutImage}>
                 <img
-                  src={require("../images/grindhouserumble.jpg")}
+                  src={require("../images/whitegrindhouselogo.jpg")}
                   className="about-image"
                 ></img>
               </div>

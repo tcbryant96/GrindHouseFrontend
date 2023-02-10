@@ -89,6 +89,7 @@
   height:400px;
   width:400px;
   border-radius: 50%;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 
 }
 
@@ -111,3 +112,93 @@
 .hidden{
   visibility: hidden;
 }
+
+.quote-text{
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: cursive;
+  color: rgb(240, 16, 16);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-div{
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.values{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 75px;
+  font-family: cursive;
+  border-radius: 25px;
+  outline-color: rgb(240, 16, 16);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.values:hover{
+  transform: scale(1.02);
+}
+
+.quote-row{
+  padding-bottom: 100px;
+}
+
+.join-text{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 100px;
+}
+
+
+.join-span{
+  white-space: pre;
+  color:rgb(240, 16, 16);
+  font-weight: bolder;
+}
+
+.animate-badge-left{
+  animation-duration: 1s;
+  animation-name: animate-badge-left;
+}
+
+@keyframes animate-badge-left{
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.animate-badge-right{
+  animation-duration: 1s;
+  animation-name: animate-badge-right;
+}
+
+@keyframes animate-badge-right{
+  from {
+    transform: translateX(90%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.animate-quote{
+  animation-duration: 4s;
+  animation-name: animate-quote;
+}
+
+@keyframes animate-quote{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
