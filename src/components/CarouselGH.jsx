@@ -6,23 +6,23 @@ import Carousel from 'react-bootstrap/Carousel';
 export default function CarouselGH() {
   return (
     <>
-    
-    <Carousel fade className='w-100 pt-3 pb-3'>
-    <Carousel.Item>
+    <div className='d-flex justify-content-center'>
+    <Carousel fade className='p-3 mt-3 mb-3 w-75'>
+    <Carousel.Item interval={2400}>
       <img
         className="d-block w-100 container-fluid carousel-image"
         src={require('../images/grindhouse.jpg')}
         alt="First slide"
       />
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item interval={2400}>
       <img
         className="d-block w-100 container-fluid carousel-image"
         src={require('../images/grindhousering.jpg')}
         alt="Second slide"
       />
     </Carousel.Item>
-    <Carousel.Item>
+    <Carousel.Item interval={2400}>
       <img
         className="d-block w-100 container-fluid carousel-image"
         src={require('../images/grindhouserumble.jpg')}
@@ -30,7 +30,7 @@ export default function CarouselGH() {
       />
     </Carousel.Item>
   </Carousel>
-
+    </div>
   </>
   )
 }

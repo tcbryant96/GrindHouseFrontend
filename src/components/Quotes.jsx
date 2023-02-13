@@ -15,7 +15,7 @@ export default function Quotes() {
   return (
     <>
     <div className="row">
-        <p className="join-text" href="#">Join Our Academy And<span className="join-span"> Improve </span> Your <span className="join-span"> Lifestyle</span></p>
+        <h1 className="join-text" href="#">Join Our Academy And<span className="join-span"> Improve </span> Your <span className="join-span"> Lifestyle</span></h1>
     </div>
       <div className="row mb-5 d-flex justify-content-end align-items-center">
         <div className="col d-flex justify-content-center">
