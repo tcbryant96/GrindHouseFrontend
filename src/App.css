@@ -57,6 +57,8 @@
 .font-body{
   margin-top: 20px;
   font-size: 25px;
+  font-family: cursive;
+  font-weight: bold;
 }
 
 .col-container{
@@ -70,21 +72,6 @@
 }
 
 
-.animate-text{
-  animation-duration: 1s;
-  animation-name: animate-text;
-}
-
-@keyframes animate-text{
-  from {
-    transform: translateX(-100%);
-  }
-
-  to {
-    transform: translateX(0%);
-  }
-}
-
 .about-image{
   height:400px;
   width:400px;
@@ -93,6 +80,7 @@
 
 }
 
+
 .animate-image{
   animation-duration: 1s;
   animation-name: animate-image;
@@ -100,13 +88,8 @@
 
 
 @keyframes animate-image{
-  from {
-    transform: translateX(90%);
-  }
-
-  to {
-    transform: translateX(0%);
-  }
+  from {transform:rotate(0deg);}
+  to {transform:rotate(720deg);}
 }
 
 .hidden{
@@ -136,14 +119,6 @@
   border-radius: 25px;
   outline-color: rgb(240, 16, 16);
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
-}
-
-.values:hover{
-  transform: scale(1.02);
-}
-
-.quote-row{
-  padding-bottom: 100px;
 }
 
 .join-text{
@@ -202,3 +177,123 @@
   100% { opacity: 1; }
 }
 
+.next-show-card{
+  width:100vh;
+ 
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.next-show-card:hover{
+  transform: scale(1.03);
+}
+
+.next-show-image{
+  border-radius: 450px;
+}
+
+.ticket-button{
+  background-color: rgb(240, 16, 16) !important;
+  color: white;
+  width: 75%;
+  margin-top: 50px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.ticket-button:hover{
+  background-color:rgb(240, 16, 16);
+  transform: scale(1.09);
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
+
+.next-show{
+  background:url("./images/grindhousering.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:10px;
+  border-style: solid;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-color: black;
+  box-shadow: 0px 10px 10px 3px rgb(0, 0, 0, 0.5);
+  border-radius: 25px; 
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.animate-show-card{
+  animation-duration: .5s;
+  animation-name: animate-show-card;
+}
+
+@keyframes animate-show-card{
+  from {
+    transform: translateY(90%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.location-image{
+  width: auto;
+  max-height: 300px;
+  padding: 10px;
+  display:block;
+  padding-top: 20px;
+}
+
+.service-link{
+  text-decoration: none; 
+  color: white;
+  
+}
+
+.service-link:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.service{
+  list-style-type: none;
+}
+
+.service-list{
+  padding-top: 20px;
+}
+
+.partners-image{
+  width:200px;
+  height:150px;
+  padding-top: 20px;
+
+}
+
+.media-icons{
+  width:50px;
+  height: auto;
+}
+
+.media-icons:hover{
+  transform: scale(1.09);
+}
+
+.media-link{
+  color:white
+}
+
+.media-link:hover{
+  color:white
+}

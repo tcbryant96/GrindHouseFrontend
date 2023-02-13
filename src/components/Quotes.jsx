@@ -17,7 +17,7 @@ export default function Quotes() {
     <div className="row">
         <p className="join-text" href="#">Join Our Academy And<span className="join-span"> Improve </span> Your <span className="join-span"> Lifestyle</span></p>
     </div>
-      <div className="row mb-5 d-flex justify-content-end align-items-center quote-row">
+      <div className="row mb-5 d-flex justify-content-end align-items-center">
         <div className="col d-flex justify-content-center">
             <h1>
             <Badge pill bg="dark" className={`values ${moveBadgeIn ? 'animate-badge-left': "hidden" }`} ref={valueBadge}>Confidence</Badge>
@@ -35,7 +35,7 @@ export default function Quotes() {
 
         </div>
       </div>
-      <div className="row mb-5 d-flex align-items-center quote-row">
+      <div className="row mb-5 d-flex align-items-center">
         <div className="col-6 ms-5">
         <p className={`quote-text me-3 ${fadeQuoteIn2 ? 'animate-quote' : "hidden"}`} ref={quote2}>
           “Wrestling teaches you nothing comes easy. Nothing in life comes easy,
@@ -52,7 +52,7 @@ export default function Quotes() {
         </h1>
         </div>
       </div>
-      <div className="row quote-row mt-5 mb-5 d-flex justify-content-end align-items-center">
+      <div className="row mt-5 mb-5 d-flex justify-content-end align-items-center">
       <div className="col d-flex justify-content-center">
       <h1>
         <Badge pill bg="dark"  className={`values ${moveBadgeIn3 ? 'animate-badge-left': "hidden" }`} ref={valueBadge3}>Strength</Badge>

@@ -2,14 +2,13 @@ import React from "react";
 import { useInView } from "react-intersection-observer";
 
 export default function AboutUs() {
-    const { ref: aboutText, inView: moveTextIn} = useInView()
     const { ref: aboutImage, inView: moveImageIn} = useInView()
    
   return (
     <>
             <div className="row mt-5 about-div">
 
-              <div className={`col ms-5 ${moveTextIn ? 'animate-text': 'hidden'}`} ref={aboutText}>
+              <div className={`col ms-5`}>
                 <h1 className="text-center font-header">About Us</h1>
                 <p className=" font-body">
                   Aliquip in culpa sint eiusmod esse excepteur. Ea excepteur

@@ -1,30 +1,22 @@
-import { Animator, MoveIn, ScrollContainer, ScrollPage, Sticky } from "react-scroll-motion";
 import "./App.css";
 import AboutUs from "./components/AboutUs";
 import CarouselGH from "./components/CarouselGH";
+import Footer from "./components/Footer";
 import IconNav from "./components/IconNav";
 import NavbarDefault from "./components/NavbarDefault";
+import NextShow from "./components/NextShow";
 import Quotes from "./components/Quotes";
-import SlickCarousel from "./components/SlickCarousel";
 
 function App() {
   return (
     <>
-    
-        
-          <NavbarDefault></NavbarDefault>
-          <div className="d-flex justify-content-center">
-            <CarouselGH></CarouselGH>
-          </div>
-
-          <IconNav></IconNav>
-    
-          
-            <AboutUs></AboutUs>
-            <Quotes></Quotes>
-      
-      
-    
+      <NavbarDefault></NavbarDefault>
+      <CarouselGH></CarouselGH>
+      <IconNav></IconNav>
+      <AboutUs></AboutUs>
+      <Quotes></Quotes>
+      <NextShow></NextShow>
+      <Footer></Footer>
     </>
   );
 }

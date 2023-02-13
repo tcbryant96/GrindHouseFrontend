@@ -24,17 +24,17 @@ export default function IconNav() {
     </div>
     <div className='col d-flex icon-box'>
         <Button className='d-flex justify-content-evenly icon-button' variant='outline-dark'>
-        <FaIcons.FaBuilding className='nav-icons'></FaIcons.FaBuilding>
-        <h3 className='p-4'>Rentals</h3>
-        </Button>
-       <div className='vertical-line'></div>
-    
-    </div>
-    <div className='col d-flex icon-box'>
-        <Button className='d-flex justify-content-evenly icon-button' variant='outline-dark'>
         <img src={require("../images/whitegrindhouselogo.jpg")} className="nav-icons white-logo"></img>
         <h3 className='p-4'>Our Shows</h3>
         </Button>
+       <div className='vertical-line'></div>
+    </div>
+    <div className='col d-flex icon-box'>
+        <Button className='d-flex justify-content-evenly icon-button' variant='outline-dark'>
+        <FaIcons.FaBuilding className='nav-icons'></FaIcons.FaBuilding>
+        <h3 className='p-4'>Rentals</h3>
+        </Button>
+    
     </div>
 </div>
 
