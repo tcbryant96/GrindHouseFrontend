@@ -7,8 +7,9 @@
 
 .carousel-image{
   max-height: 400px;
-  width: auto;
+  width: 100%;
 }
+
 
 .about-us-card{
  border-width: 5px;
@@ -316,7 +317,7 @@
   width:90%;
   height:50px;
   font-size: 25px;
-  border-radius: 40px;
+  border-radius: 10px;
   border: none;
 }
 
@@ -332,4 +333,16 @@
 .call-us-link:hover{
     color:white;
     text-decoration: none;
+}
+
+.admin-nav{
+  border-color: black;
+  border-style: solid;
+  display: table;
+}
+
+.admin-nav-link{
+  padding:20px;
+  background-color: grey;
+  color: white;
 }
